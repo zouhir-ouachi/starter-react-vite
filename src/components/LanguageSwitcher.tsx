@@ -10,8 +10,6 @@ const LanguageSwitcher: React.FC = () => {
 
   const { language, toggleLanguage } = i18nContext;
 
-  console.log(language, "language =======");
-
   return (
     <button
       onClick={toggleLanguage}
